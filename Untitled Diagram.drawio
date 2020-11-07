@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2020-11-07T03:12:56.418Z" agent="5.0 (X11)" version="13.9.2" etag="G2h1bGJu3ewsPV1NdEgR" type="github"><diagram id="CQ5-SCFiZAmAGeY1lwmJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-07T03:24:40.521Z" agent="5.0 (X11)" etag="gxICahDxXpjnrBuPQvfc" version="13.9.2" type="github">
+  <diagram id="CQ5-SCFiZAmAGeY1lwmJ" name="Page-1">
+    <mxGraphModel dx="1673" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-2" value="Client" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Uq4jdsSz1HJpVTgpHxvG-2" source="Uq4jdsSz1HJpVTgpHxvG-1" target="Uq4jdsSz1HJpVTgpHxvG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-1" value="SetInterval for every second" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Uq4jdsSz1HJpVTgpHxvG-2">
+          <mxGeometry x="10" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-3" value="Powered by PHP and mostly client-side Javascript" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Uq4jdsSz1HJpVTgpHxvG-2">
+          <mxGeometry x="10" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-5" value="&lt;pre style=&quot;font-size: 7px&quot;&gt;&lt;font style=&quot;font-size: 7px&quot;&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;navigator.geolocation.getCurrentPosition&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="Uq4jdsSz1HJpVTgpHxvG-2">
+          <mxGeometry x="10" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-8" value="Client" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="440" y="50" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Uq4jdsSz1HJpVTgpHxvG-8" target="Uq4jdsSz1HJpVTgpHxvG-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="190.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-11" value="Definitively powered by Node.js " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Uq4jdsSz1HJpVTgpHxvG-8">
+          <mxGeometry x="10" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-14" value="General Info" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-180" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq4jdsSz1HJpVTgpHxvG-16" value="Communication: Websockets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Uq4jdsSz1HJpVTgpHxvG-14">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
